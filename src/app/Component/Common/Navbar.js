@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link to='/login'>
           <button className='text-[1vw] hover:font-semibold text-black font-medium'>Login</button>
         </Link>
-        <Link to='/login'>
+        <Link to='/signup'>
           <button className='text-[1vw] ml-[2vw] hover:font-semibold bg-[#092370] text-white p-[0.5vw] w-full max-w-[10vw] rounded-2xl font-medium'>Signup</button>
         </Link>
         </section>

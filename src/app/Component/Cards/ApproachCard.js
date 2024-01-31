@@ -2,10 +2,10 @@ import React from 'react'
 
 const ApproachCard = ({bg, title, titleColor, infoColor, info,icon1Text, icon1, icon2Text, icon2 }) => {
   return (
-    <main className={`w-full m-vw flex justify-between items-center max-w-[50vw] ${bg} p-vw rounded-lg`}>
+    <main className={`w-full m-vw flex justify-between items-center ${icon1 ? 'max-w-[50vw]' : 'max-w-[40vw]'} ${bg} p-vw rounded-lg`}>
       <section className="w-full max-w-[45vw]">
         <h1 className={`text-[1.5vw] ${titleColor} font-bold`}>{title}</h1>
-        <p className={`text-[1vw] mt-[0.5vw] w-full max-w-[25vw] ${infoColor}`}>{info}</p>
+        <p className={`text-[1vw] mt-[0.5vw] w-full max-w-[30vw] ${infoColor}`}>{info}</p>
       </section>
       <section className="w-full col-center max-w-[7vw]">
       <img src={icon1} alt={icon1Text} className='w-full max-w-[4vw]' />

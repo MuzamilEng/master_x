@@ -3,7 +3,7 @@ import React from 'react'
 
 const PriceCard = ({title, popular, price, billed, info, bgColor, headingColor, textColor, blueBg}) => {
   return (
-    <article className={`w-full max-w-[23vw] ${bgColor} shadow-md p-2vw rounded-2xl`}>
+    <article className={`w-full max-w-[23vw] ${bgColor} hover:shadow-xl shadow-md p-2vw rounded-2xl`}>
       <div className="flex m-0.5vw p-vw border-b-[1px] border-gray-400 w-full justify-between items-center">
         <h1 className={`${headingColor} text-[1.5vw] font-bold`}>{title}</h1>
         {popular && <p className={`bg-white p-[0.5vw] rounded-2xl w-full max-w-[6vw] text-center text-black font-semibold text-[1vw]`}>{popular}</p>}
