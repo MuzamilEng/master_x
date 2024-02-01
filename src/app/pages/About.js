@@ -39,9 +39,9 @@ const About = () => {
                       <section key={index2} className='ml-2vw'>
                         <h1 className='text-[1vw] text-[#092370] font-medium'>{infos?.title}</h1>
                        <section className="flex items-center">
-                       <div className="flex bg-white">
+                       <div className="flex  bg-white">
                        {infos?.info?.map((img, index3) => <div key={index3} className='border-[0.5px] border-gray-100 p-[1.5vw] max-w-[12vw] h-[6vw]'>
-                      <img src={img?.img} className='w-full' />
+                      <img src={img?.img} className='w-full hover:bg-gray-100 cursor-pointer' />
                       </div>)}
                        </div>
                        {infos?.icon && <div className='text-white row-center cursor-pointer hover:bg-[#092370e5] text-center w-full bg-[#092370] text-[1.4vw] max-w-[4vw] h-[6vw] '><span className='text-center'>{infos?.icon}</span></div>}
