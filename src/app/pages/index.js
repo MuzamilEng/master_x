@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             <div className="w-full max-w-[12vw] flex items-center">
             <button className='text-[1vw] bg-white border-[1.5px] text-gray-500 p-[0.5vw] rounded-md font-medium'>prev</button>
-            <button className='text-[1vw] ml-[2vw] text-vw bg-[#092370] text-white p-[0.5vw] rounded-md font-medium'>next</button>
+            <button className='text-[1vw] ml-[2vw] bg-[#092370] text-white p-[0.5vw] rounded-md font-medium'>next</button>
             </div>
           </section>
         </article>

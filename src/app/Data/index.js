@@ -832,3 +832,194 @@ export const Languages = [
    ]
   },
 ]
+
+export const emailForm = [
+  {
+      label: "Full Name",
+      name: "name",
+      type: "text",
+      placeholder: "Enter your name",
+      rules: {
+          required: {
+              value: true,
+              message: "Name is required"
+          }
+      }
+  },
+  {
+      label: "Email",
+      name: "email",
+      type: "email",
+      placeholder: "Enter your email",
+      rules: {
+          required: {
+              value: true,
+              message: "Email is required",
+          }
+      }    
+  },
+  {
+      label: "General Question",
+      name: "phoneNumber",
+      type: "number",
+      placeholder: "Enter your phone number",
+      rules: {
+          required: {
+              value: true,
+              message: "Phone number is required"
+          }
+      } 
+  },
+  {
+      label: "How we can help you?",
+      name: "message",
+      type: "textarea",
+      placeholder: "Enter your phone message",
+      rules: {
+          required: {
+              value: true,
+              message: "Message is required"
+          }
+      } 
+  },
+]
+
+export const joinTeamForm = [
+  {
+    label: "Name and surname",
+    name: "name",
+    type: "text",
+    placeholder: "Enter your name",
+    rules: {
+        required: {
+            value: true,
+            message: "Name is required"
+        }
+    }
+},
+{
+    label: "Email",
+    name: "email",
+    type: "email",
+    placeholder: "Enter your email",
+    rules: {
+        required: {
+            value: true,
+            message: "Email is required",
+        }
+    }    
+},
+{
+    label: "Whatsapp or mobile number",
+    name: "phoneNumber",
+    type: "number",
+    placeholder: "Enter your phone number",
+    rules: {
+        required: {
+            value: true,
+            message: "Phone number is required"
+        }
+    } 
+},
+{
+  label: "Availability to start working with us",
+  name: "message",
+  type: "select",
+  options:[
+    {
+      label: "Full time",
+      value: "Full time"
+    },
+    {
+      label: "Part time",
+      value: "Part time"
+    }
+  ],
+  placeholder: "Please Select",
+  rules: {
+      required: {
+          value: true,
+          message: "Message is required"
+      }
+  }
+},
+{
+    label: "Years programming professionally",
+    name: "message",
+    type: "text",
+    placeholder: "Enter your phone message",
+    rules: {
+        required: {
+            value: true,
+            message: "Message is required"
+        }
+    } 
+},
+{
+  label: "Years programming total",
+  name: "message",
+  type: "text",
+  placeholder: "Enter your phone message",
+  rules: {
+      required: {
+          value: true,
+          message: "Message is required"
+      }
+  } 
+},
+{
+  label: "Availability to start working with us",
+  name: "message",
+  type: "select",
+  options:[
+    {
+      label: "Full time",
+      value: "Full time"
+    },
+    {
+      label: "Part time",
+      value: "Part time"
+    }
+  ],
+  placeholder: "Please Select",
+  rules: {
+      required: {
+          value: true,
+          message: "Message is required"
+      }
+  }
+},
+{
+  label: "Languages and frameworks",
+  name:'languages',
+  type: "checkbox",
+  options: [
+      { label: "Please Select", value: ""}, 
+      {  label: "React Native", value: "React Native" },
+      {  label: "React", value: "React" },
+      {  label: "Javascript", value: "Javascript" },
+      {  label: "Java", value: "Java" },
+      {  label: "Ruby on Rails", value: "Ruby on Rails" },
+      {  label: "Python", value: "Python" },
+      {  label: "Asp.net", value: "Asp.net" },
+      {  label: "Flutter", value: "Flutter" },
+      {  label: "Node.js", value: "Node.js" },
+      {  label: "PHP", value: "PHP" },
+      {  label: "Golang", value: "Golang" },
+      {  label: "Wordpress", value: "Wordpress" },
+      {  label: "Other", value: "Other" },
+  ]
+},
+{
+  label: "Other",
+  name: "message",
+  type: "text",
+  placeholder: "Enter your phone message",
+  rules: {
+      required: {
+          value: true,
+          message: "Message is required"
+      }
+  } 
+},
+]

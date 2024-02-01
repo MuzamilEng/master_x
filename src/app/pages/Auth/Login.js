@@ -10,8 +10,8 @@ const Login = () => {
       <Topbar />
       <Navbar />
       <div className='w-full col-center p-2vw max-w-[90vw] m-auto'>
-        <form className="w-full max-w-[40vw] boredr-[1px] bg-[#F8F8F8] rounded-xl col-center">
-        <h1 className='text-[3vw] capitalize text-black mt-vw font-bold'>Log in to SpaceMaster</h1>
+        <form className="w-full max-w-[35vw] boredr-[1px] bg-[#F8F8F8] rounded-xl col-center">
+        <h1 className='text-[2vw] capitalize text-black mt-vw font-bold'>Log in to SpaceMaster</h1>
         <section className="mt-vw w-full col-center p-vw">
           <div className="flex items-center w-full max-w-[30vw] bg-white rounded-2xl border-[2px] border-[#E4EBE4] focus:outline-none">
           <Icon icon="line-md:account-small" className='text-[1.5vw] bg-inherit' />
