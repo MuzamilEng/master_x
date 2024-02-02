@@ -9,6 +9,7 @@ import Subscription from './app/pages/Subscription/Subscription'
 import Login from './app/pages/Auth/Login'
 import Signup from './app/pages/Auth/Signup'
 import Success from './app/pages/Subscription/Success'
+import PaymentCheckout from './app/pages/Subscription/PaymentCheckout'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/success' element={<Success />} />
+        <Route path='/payment' element={<PaymentCheckout />} />
 
       </Routes>
     </>

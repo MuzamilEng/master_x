@@ -1,5 +1,6 @@
 import { Icon } from '@iconify/react'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PriceCard = ({title, popular, price, billed, info, bgColor, headingColor, textColor, blueBg}) => {
   return (
@@ -14,7 +15,9 @@ const PriceCard = ({title, popular, price, billed, info, bgColor, headingColor, 
       </section>
       <div className="col-center">
         {info && info?.map((item, index)=> <p key={index} className={`${textColor} p-0.5vw text-[1vw]`}>{item}</p>)}
+        <Link to="/payment">
       <button className={`${blueBg} w-full max-w-[8vw] p-[1vw] rounded-full ${title === 'Premium' ? 'text-black hover:bg-gray-200' : 'text-white hover:bg-[#092370e7]'}  text-[1vw] font-medium`}>Get Started</button>
+        </Link>
       </div>
     </article>
   )

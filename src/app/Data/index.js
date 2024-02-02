@@ -1052,3 +1052,22 @@ export const willGet = [
     info:"IP protected and secured work by maintaining strict NDAs. Providing absolutely no risk over security."
   },
 ]
+
+
+export const priceDetails = [
+  {
+    title: "Basic",
+    info:"$15/month",
+    members: "10 Team Members"
+  },
+  {
+    title: "Premium",
+    info:"$30/month",
+    members: "20 Team Members"
+  },
+  {
+    title: "Advance",
+    info:"$90/month",
+    members: "30 Team Members"
+  },
+]
