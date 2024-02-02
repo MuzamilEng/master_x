@@ -8,6 +8,7 @@ import HowItWorks from './app/pages/HowItWorks'
 import Subscription from './app/pages/Subscription/Subscription'
 import Login from './app/pages/Auth/Login'
 import Signup from './app/pages/Auth/Signup'
+import Success from './app/pages/Subscription/Success'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/subscription' element={<Subscription />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
+        <Route path='/success' element={<Success />} />
 
       </Routes>
     </>

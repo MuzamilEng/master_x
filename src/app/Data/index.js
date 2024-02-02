@@ -1023,3 +1023,32 @@ export const joinTeamForm = [
   } 
 },
 ]
+
+
+export const willGet = [
+  {
+    icon: "img/discovery.png",
+    title:"Discovery Team",
+    info:"A group of expert resources that can formulate multiple outcomes for your projectand provide multiple software solutionsbeforehand"
+  },
+  {
+    icon: "img/timely.png",
+    title:"Timely Delivery",
+    info:"With an already set goal and deadline, projects are guaranteed to be delivered on time."
+  },
+  {
+    icon: "img/determined.png",
+    title:"Determined Expenses",
+    info:"Expenses are already decided with a clear cut budget team has to work within. The overall cost never exceeds the budget."
+  },
+  {
+    icon: "img/ease.png",
+    title:"Ease of Working",
+    info:"Clearly defined specifications and requirements with details gives you a clear view of what your project looks like and the project is divided into individual tasks so it’s easier to work on."
+  },
+  {
+    icon: "img/security.png",
+    title:"Security",
+    info:"IP protected and secured work by maintaining strict NDAs. Providing absolutely no risk over security."
+  },
+]

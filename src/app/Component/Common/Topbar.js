@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Topbar = () => {
   return (
-    <main style={{ background: 'rgba(0, 0, 0, 0.20)' }} className='w-full p-[0.5vw]'>
+    <main style={{ background: 'rgba(0, 0, 0, 0.04)' }} className='w-full p-[0.5vw]'>
       <section className="flex items-center justify-evenly w-full max-w-[40vw] mr-[5vw] ml-auto">
         {topbar?.map((item, index) => (
           <Link key={index} to={item?.link} className="flex items-center">
