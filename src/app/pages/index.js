@@ -55,7 +55,7 @@ const Home = () => {
             <h1 className='text-[2vw] font-bold text-white'>Build A Dedicated Team Now</h1>
             <p className="text-[1vw] text-white w-full max-w-[25vw]">Transform your software development process with our dedicated teams. More efficiency, more success.</p>
           </div>
-          <button className="w-full flex items-center justify-center max-w-[9vw] mt-[2vw] bg-white border-[2px] text-[#092370] hover:bg-[#092370] hover:text-white p-[0.5vw] rounded-md font-semibold">Get started <Icon icon="formkit:arrowright" /></button>
+          <button className="w-full flex items-center text-vw justify-center max-w-[9vw] mt-[2vw] bg-white border-[2px] text-[#092370] hover:bg-[#092370] hover:text-white p-[0.5vw] rounded-md font-semibold">Get started <Icon icon="formkit:arrowright" /></button>
         </section>
         <figure className="flex items-start justify-center w-full mt-2vw p-[4vw] bg-[#1B1B1B]">
           <div className="w-full max-w-[30vw]">

@@ -37,7 +37,7 @@ const About = () => {
                   <main className="flex -ml-2vw">
                     {item?.info?.map((infos, index2) =>(
                       <section key={index2} className='ml-2vw'>
-                        <h1 className='text-[1vw] text-[#092370] font-medium'>{infos?.title}</h1>
+                        <h1 className='text-[1vw] mb-[0.3vw] text-[#092370] font-medium'>{infos?.title}</h1>
                        <section className="flex items-center">
                        <div className="flex  bg-white">
                        {infos?.info?.map((img, index3) => <div key={index3} className='border-[0.5px] border-gray-100 p-[1.5vw] max-w-[12vw] h-[6vw]'>

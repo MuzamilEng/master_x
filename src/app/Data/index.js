@@ -44,7 +44,7 @@ export const navbar = [
   },
   {
     title: "How it Works",
-    link: "howitworks",
+    link: "/howitworks",
   },
   {
     title: "Join Team",

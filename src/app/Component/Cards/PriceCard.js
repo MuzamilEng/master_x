@@ -11,12 +11,12 @@ const PriceCard = ({title, popular, price, billed, info, bgColor, headingColor, 
       </div>
       <section className='m-0.5vw p-vw col-center border-b-[1px] border-gray-400'>
         <p className={`${textColor} text-[1.5vw] flex items-center font-bold`}><Icon icon="flowbite:dollar-solid" className={`${textColor} text-[1.5vw] font-bold`} />{price}/month</p>
-        <p className={`${blueBg} w-full p-[0.5vw] rounded-full ${title === 'Premium' ? 'text-black' : 'text-white'} text-[1vw] text-center font-medium`}>Billed as {billed} per month</p>
+        <p className={`${blueBg} w-full p-[0.5vw] mt-vw rounded-full ${title === 'Premium' ? 'text-black' : 'text-white'} text-[1vw] text-center font-medium`}>Billed as {billed} per month</p>
       </section>
       <div className="col-center">
         {info && info?.map((item, index)=> <p key={index} className={`${textColor} p-0.5vw text-[1vw]`}>{item}</p>)}
         <Link to="/payment">
-      <button className={`${blueBg} w-full max-w-[8vw] p-[1vw] rounded-full ${title === 'Premium' ? 'text-black hover:bg-gray-200' : 'text-white hover:bg-[#092370e7]'}  text-[1vw] font-medium`}>Get Started</button>
+      <button className={`${blueBg} w-full max-w-[8vw] p-[0.7vw] mt-vw rounded-full ${title === 'Premium' ? 'text-black hover:bg-gray-200' : 'text-white hover:bg-[#092370e7]'}  text-[1vw] font-medium`}>Get Started</button>
         </Link>
       </div>
     </article>
