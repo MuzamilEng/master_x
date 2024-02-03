@@ -22,7 +22,7 @@ const Home = () => {
           <section className="w-full max-w-[45vw] p-[1vw]">
             <h1 className="text-[1.2vw] text-[#1B1B1B] font-medium capitalize">Dedicated teams</h1>
             <div className="border-b-[4px] rounded-lg w-[3vw] border-[#092370]"></div>
-            <p className="w-full max-w-[40vw] mt-[2vw] capitalize text-[#1B1B1B] leading-[4vw] text-[4vw] font-extrabold">
+            <p className="w-full max-w-[40vw] mt-[2vw] capitalize text-[#1B1B1B] leading-[4vw] text-[4vw] font-bold ">
             Build your <br /><span className="text-[#092370]"> business app </span>
             with <br /> your own <br /><span className='text-[#092370]'>software team</span>
             </p>

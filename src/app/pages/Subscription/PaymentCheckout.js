@@ -55,7 +55,7 @@ const PaymentCheckout = () => {
           </div>
         </section>
         <section className='bg-[#F3F4F6] w-full max-w-[30vw] ml-2vw border-[1px] rounded-xl p-3vw'>
-        <h1 className='text-[1.7vw] font-bold'>details of the subscriptions</h1>
+        <h1 className='text-[1.7vw] font-bold'>Choose Subscriptions</h1>
         <div className="mt-vw col-center">
           {priceDetails?.map((item, index)=> (
             <main className={`w-full max-w-[33vw] mt-vw p-[0.8vw] border-[1px] ${item?.title === 'Premium' ? 'bg-[#092370]' : 'bg-[#ffff]'} border-gray-900 rounded-2xl`} key={index}>
